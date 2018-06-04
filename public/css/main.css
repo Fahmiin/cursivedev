@@ -1,0 +1,273 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+a
+{
+	color: #fff;
+	cursor: pointer;
+}
+
+.hidden
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+#overlay
+{
+	position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.brand-logo
+{
+	width: 300px;
+	height: auto;
+}
+
+.social
+{
+	padding-bottom: 10px;
+}
+
+.fab
+{
+	padding: 15px;
+}
+
+li .active
+{
+	border-left: 3px solid #ffab40;
+}
+
+#home
+{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../img/bgc/homeIMG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left
+}
+
+#services
+{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../img/bgc/servicesIMG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#projects
+{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../img/bgc/projectsIMG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contact
+{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../img/bgc/contactIMG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.section
+{
+	position: relative;
+	z-index: 1 !important;
+}
+
+.slides
+{
+	height: 500px !important;
+}
+
+.slider
+{
+	width: 900px !important;
+	margin: auto;
+	height: 550px !important;
+}
+
+.carousel
+{
+	height: 350px !important;
+	width: 875px !important;
+}
+
+.carousel-item img
+{
+	width: 275px !important;
+	margin: auto;
+}
+
+.card-image img
+{
+	width: 200px;
+	height: 200px;
+}
+
+.showcase img
+{
+	width: 400px;
+	height: 400px;
+	border-radius: 10%;
+}
+
+.buttonView
+{
+	margin: 20px 40px 0 0;
+}
+
+.contactImg
+{
+	height: 300px !important;
+}
+
+.form
+{
+	margin-top: 120px;
+}
+
+.form2
+{
+	margin-top: 80px;
+}
+
+.activator
+{
+	cursor: pointer;
+}
+
+.position1
+{
+	padding-top: 300px;
+}
+
+.position2
+{
+	padding-top: 275px;
+}
+
+footer
+{
+	height: 100px;
+	width: 100%;
+}
+
+footer h6
+{
+	margin-top: 0 !important;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+.smallShowcase
+{
+	background-color: #000;
+	height: 150px;
+}
+
+.smallShowcase img
+{
+	width: 200px;
+	height: auto;
+}
+
+.smallSlider, .smallSlides, .smallSlides img
+{
+	width: 100vw !important;
+	height: 250px !important;
+}
+
+.position3
+{
+	margin-top: 150px !important;
+}
+
+#servicesS
+{
+	background-color: #448aff;
+}
+.marginBOFF
+{
+	margin-bottom: 0 !important;
+}
+
+#projectsS
+{
+	background-color: #000;
+	height: 200px;
+}
+
+#projectsS h6
+{
+	margin-top: 0 !important;
+	padding: 20px;
+}
+
+#projectsS img, #projectsS a
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 5%;
+}
+
+#contactS .card
+{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.extraInfo
+{
+	margin: 0 !important;
+}
+
+.extraInfo li
+{
+	padding: 10px 0 10px 10px !important;
+}
+
+.show h6
+{
+	margin: 0 !important;
+	padding: 10px 0 !important;
+}
+
+#dropdown1 li a
+{
+	padding: 5px 10px !important;
+}
