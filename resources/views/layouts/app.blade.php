@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -12,7 +12,7 @@
 		@yield('css')
 
 	</head>
-	<body>
+	<body id="body">
 		
 		@yield('content')
 

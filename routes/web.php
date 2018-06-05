@@ -12,3 +12,5 @@
 */
 
 Route::view('/', 'main');
+Route::view('/lingo', 'lingo');
+Route::view('/4district', '4district');

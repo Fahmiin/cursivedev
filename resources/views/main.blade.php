@@ -3,6 +3,7 @@
 @section('content')
 	<section class="hide-on-med-and-down">
 		<div id="overlay"></div>
+		
 		<ul class="sidenav sidenav-fixed grey darken-4 hide-on-med-and-down">
 			<li class="black social">
 				<img src="img/TheCursiveDev.png" class="brand-logo">
@@ -17,7 +18,7 @@
 			<li class="link"><a href="#projects" class="yellow-text text-lighten-3"><i class="material-icons left yellow-text text-lighten-3">assignment</i>Projects</a></li>
 			<li class="link"><a href="#contact" class="red-text text-accent-2"><i class="material-icons left red-text text-accent-2">phone</i>Contact</a></li>
 		</ul>
-		
+
 		<div class="scrollspy" id="home">
 			<div class="row">
 				<div class="col m3"></div>
@@ -26,10 +27,10 @@
 					<h4 class="section right-align teal-text text-lighten-3"><i class="medium material-icons right">favorite</i>Loving HTML5, CSS3, JS and Laravel</h4>
 					<h4 class="section yellow-text text-lighten-3"><i class="medium material-icons left">edit</i>Coding to create value for our budding entrepreneurs</h4>
 					<div class="carousel">
-						<a class="carousel-item" href="#one!"><img src="{{asset('img/ig/1.png')}}"></a>
-						<a class="carousel-item" href="#two!"><img src="{{asset('img/ig/2.png')}}"></a>
-						<a class="carousel-item" href="#three!"><img src="{{asset('img/ig/3.png')}}"></a>
-						<a class="carousel-item" href="#four!"><img src="{{asset('img/ig/4.png')}}"></a>
+						<a class="carousel-item"><img src="{{asset('img/ig/1.png')}}"></a>
+						<a class="carousel-item"><img src="{{asset('img/ig/2.png')}}"></a>
+						<a class="carousel-item"><img src="{{asset('img/ig/3.png')}}"></a>
+						<a class="carousel-item"><img src="{{asset('img/ig/4.png')}}"></a>
 					</div>
 				</div>
 			</div>
@@ -96,11 +97,11 @@
 					<div class="row">
 						<div class="col m6 showcase">
 							<img class="materialboxed" src="{{asset('img/lingo/Lingo.jpg')}}">
-							<a href="lingo.html" class="btn waves-effect waves-light orange darken-2 center-align buttonView"><i class="material-icons left">pageview</i>See more</a>
+							<a href="/lingo" class="btn waves-effect waves-light orange darken-2 center-align buttonView"><i class="material-icons left">pageview</i>See more</a>
 						</div>
 						<div class="col m6 showcase">
 							<img class="materialboxed" src="{{asset('img/4district/4district.jpg')}}">
-							<a href="4district.html" class="btn waves-effect waves-light teal darken-4 center-align buttonView"><i class="material-icons left">pageview</i>See more</a>
+							<a href="/4district" class="btn waves-effect waves-light teal darken-4 center-align buttonView"><i class="material-icons left">pageview</i>See more</a>
 						</div>
 					</div>
 				</div>
@@ -274,10 +275,10 @@
 			<h6 class="white-text center">Check out our recent projects!</h6>
 			<div class="row center-align">
 				<div class="col s6">
-					<a href="lingo.html" class="waves-effect waves-light"><img src="{{asset('img/lingo/Lingo.jpg')}}"></a>
+					<a href="/lingo" class="waves-effect waves-light"><img src="{{asset('img/lingo/Lingo.jpg')}}"></a>
 				</div>
 				<div class="col s6">
-					<a href="4district.html" class="waves-effect waves-light"><img src="{{{asset('img/4district/4district.jpg')}}"></a>
+					<a href="/4district" class="waves-effect waves-light"><img src="{{asset('img/4district/4district.jpg')}}"></a>
 				</div>
 			</div>
 		</div>
